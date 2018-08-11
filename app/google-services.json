@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "930916020363",
+    "firebase_url": "https://x-men-heroes.firebaseio.com",
+    "project_id": "x-men-heroes",
+    "storage_bucket": "x-men-heroes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930916020363:android:204fa8e98ec42326",
+        "android_client_info": {
+          "package_name": "com.example.rumy.android104"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "930916020363-456p7f28r1cpkrl3ves6ic7m3d31m8mj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rumy.android104",
+            "certificate_hash": "6be35c37c20a7f6c0c5bbc0d1495076a2a2c92a8"
+          }
+        },
+        {
+          "client_id": "930916020363-8sn0r0etbasi1n70bjomq4vple8l66u5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT00wrMF1hri5UmbtaYD0MCx2oW7sYOpg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "930916020363-8sn0r0etbasi1n70bjomq4vple8l66u5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
