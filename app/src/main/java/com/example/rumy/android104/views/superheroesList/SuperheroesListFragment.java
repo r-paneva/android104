@@ -42,14 +42,12 @@ public class SuperheroesListFragment extends android.app.Fragment implements Ada
         mSuperheroesListView.setOnItemClickListener(this);
         mSuperheroesRepository = new FirebaseRepository<>(Superhero.class);
 
-        mSuperheroesRepository.add(new Superhero("Storm", "Ororo Munroe"),
-                newSuperhero -> {
-                    mSuperheroesRepository.getAll(superheroes -> {
-                        for (Superhero superhero : superheroes) {
-                            mSuperheroesAdapter.add(superhero.name);
-                        }
-                    });
-                });
+        mSuperheroesRepository.getAll(superheroes -> {
+            for (Superhero superhero : superheroes) {
+                mSuperheroesAdapter.add(superhero.name);
+            }
+
+        });
 //        Repository<Power> powersRepository = new FirebaseRepository<>(Power.class);
 
 //        mDb.collection("superheros")

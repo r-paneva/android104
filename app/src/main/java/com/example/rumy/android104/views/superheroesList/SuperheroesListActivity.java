@@ -13,11 +13,11 @@ import com.example.rumy.android104.views.superheroesDetais.SuperheroesDetailsFra
 
 
 public class SuperheroesListActivity extends BaseDrawerActivity implements Navigator {
-    public static final int IDENTIFIER = 1;
+    public static final long IDENTIFIER = 1;
     private SuperheroesListFragment mSuperheroesListFragment;
     private boolean mIsPhone;
     private SuperheroesDetailsFragment mSuperheroDetailsFragment;
-    private android.support.v7.widget.Toolbar mToolbar;
+    private Toolbar mToolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +41,7 @@ public class SuperheroesListActivity extends BaseDrawerActivity implements Navig
 
         }
         transaction.commit();
+
     }
 
     @Override

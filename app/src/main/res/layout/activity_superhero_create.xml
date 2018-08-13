@@ -15,12 +15,11 @@
             android:layout_height="40dp"
             />
 
-        <TextView
+        <FrameLayout
+            android:layout_below="@id/drawer_toolbar"
+            android:id="@+id/content"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@+id/drawer_toolbar"
-            android:textSize="24dp"
-            android:text="Create new superhero"
-            />
+            android:layout_height="match_parent" />
+
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

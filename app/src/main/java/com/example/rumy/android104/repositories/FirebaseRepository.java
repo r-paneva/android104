@@ -38,6 +38,11 @@ public class FirebaseRepository<T> implements Repository<T> {
     }
 
     @Override
+    public void addOne(T item) {
+        mDb.collection(mCollectionName).add(item);
+    }
+
+    @Override
     public void del(T item, Consumer<T> action) {
 
     }
