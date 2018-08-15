@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".views.superheroesDetais.SuperheroesDetailsActivity" />
-        <activity android:name=".views.superheroCreate.SuperheroCreateActivity"></activity>
+        <activity android:name=".views.SuperheroCreate.SuperheroCreateActivity"></activity>
     </application>
 
 </manifest>

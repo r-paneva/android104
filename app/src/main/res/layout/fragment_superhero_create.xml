@@ -3,15 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".views.superheroCreate.SuperheroCreateFragment">
+    tools:context=".views.SuperheroCreate.SuperheroCreateFragment">
 
-    <TextView
-        android:textSize="24dp"
-        android:textColor="#cc00cc"
-        android:id="@+id/tv_new_hero_added"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="New hero added"/>
+
 
 
 </FrameLayout>

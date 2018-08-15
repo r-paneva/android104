@@ -4,22 +4,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".views.superheroCreate.SuperheroCreateActivity">
+    tools:context=".views.SuperheroCreate.SuperheroCreateActivity">
+
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        >
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/drawer_toolbar"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            />
+            android:visibility="visible" />
 
-        <FrameLayout
-            android:layout_below="@id/drawer_toolbar"
-            android:id="@+id/content"
+
+        <android.support.v7.widget.GridLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:layout_below="@+id/drawer_toolbar"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="0dp"
+                android:text="Button"
+                app:layout_column="0"
+                app:layout_row="0"
+                tools:layout_column="0"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="103dp" />
+
+            <Button
+                android:id="@+id/btn_create_hero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="0dp"
+                android:text="Create"
+                app:layout_column="1"
+                app:layout_row="0" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rigth"
+                app:layout_column="2"
+                app:layout_row="0" />
+        </android.support.v7.widget.GridLayout>
+
 
     </RelativeLayout>
+
+
 </android.support.constraint.ConstraintLayout>
